@@ -1,0 +1,15 @@
+com.baseflow.geolocator.geolocator_android-jetified-window-java-1.0.0-beta04-0 /Users/shlokpardeshi/.gradle/caches/transforms-3/3299ded844d4218305dd6fc73958c157/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-base-18.1.0-1 /Users/shlokpardeshi/.gradle/caches/transforms-3/3d8649fde5256783f38fb411245a95c1/transformed/jetified-play-services-base-18.1.0/res
+com.baseflow.geolocator.geolocator_android-jetified-annotation-experimental-1.3.0-2 /Users/shlokpardeshi/.gradle/caches/transforms-3/6ca180b986c5214354c1aec6d51ee0c4/transformed/jetified-annotation-experimental-1.3.0/res
+com.baseflow.geolocator.geolocator_android-jetified-window-1.0.0-beta04-3 /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-18.1.0-4 /Users/shlokpardeshi/.gradle/caches/transforms-3/f01ac06905777b6ea4902a75e03ec2c9/transformed/jetified-play-services-basement-18.1.0/res
+com.baseflow.geolocator.geolocator_android-core-1.9.0-5 /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/res
+com.baseflow.geolocator.geolocator_android-lifecycle-runtime-2.3.1-6 /Users/shlokpardeshi/.gradle/caches/transforms-3/f55dadf8f5c96b08146b0debbf4ccfa0/transformed/lifecycle-runtime-2.3.1/res
+com.baseflow.geolocator.geolocator_android-pngs-7 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/generated/res/pngs/release
+com.baseflow.geolocator.geolocator_android-resValues-8 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/generated/res/resValues/release
+com.baseflow.geolocator.geolocator_android-rs-9 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/generated/res/rs/release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-10 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-11 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-12 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/Delivery man app/build/geolocator_android/intermediates/merged_res/release
+com.baseflow.geolocator.geolocator_android-main-13 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_android-4.1.7/android/src/main/res
+com.baseflow.geolocator.geolocator_android-release-14 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_android-4.1.7/android/src/release/res

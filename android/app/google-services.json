@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "787796785840",
+    "project_id": "erfurtschlemmer",
+    "storage_bucket": "erfurtschlemmer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787796785840:android:7df7ea2bb997cae8ce9975",
+        "android_client_info": {
+          "package_name": "de.belitzo.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubw2BgZIRB9klt02KypBgWMqsFTyTfsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787796785840-ihocr0nedvqefhqdpq0fqof4g56ila3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.belitzo.merchant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787796785840:android:1472369afe91b550ce9975",
+        "android_client_info": {
+          "package_name": "de.belitzo.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubw2BgZIRB9klt02KypBgWMqsFTyTfsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787796785840-ihocr0nedvqefhqdpq0fqof4g56ila3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.belitzo.merchant"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787796785840:android:35953547c696fd12ce9975",
+        "android_client_info": {
+          "package_name": "de.schlemmererfurt.essen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubw2BgZIRB9klt02KypBgWMqsFTyTfsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787796785840-46k16sk3p7i1a8hbujdr6ns5j9g1h03s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787796785840-ihocr0nedvqefhqdpq0fqof4g56ila3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "de.belitzo.merchant"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

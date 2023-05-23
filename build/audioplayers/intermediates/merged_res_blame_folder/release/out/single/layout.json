@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/notification_action.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/notification_action.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/custom_dialog.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/notification_template_part_time.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/notification_template_icon_group.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/notification_action_tombstone.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/layout/notification_template_part_chronometer.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/layout/notification_template_part_chronometer.xml"
+    }
+]
