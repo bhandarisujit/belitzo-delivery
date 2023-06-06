@@ -1,0 +1,535 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.belitzo.driver"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:9:5-66
+17-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:9:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:10:5-79
+18-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:11:5-81
+19-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:12:5-77
+20-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:12:22-74
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:13:5-84
+21-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:13:22-82
+22
+23    <queries>
+23-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:15:5-28:15
+24        <intent>
+24-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:16:9-19:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:17:13-65
+25-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:17:21-62
+26
+27            <data android:scheme="https" />
+27-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:18:13-44
+27-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:18:19-41
+28        </intent>
+29        <intent>
+29-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:20:9-23:18
+30            <action android:name="android.intent.action.DIAL" />
+30-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:21:13-65
+30-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:21:21-62
+31
+32            <data android:scheme="tel" />
+32-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:18:13-44
+32-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:18:19-41
+33        </intent>
+34        <intent>
+34-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:24:9-27:18
+35            <action android:name="android.intent.action.SEND" />
+35-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:25:13-65
+35-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:25:21-62
+36
+37            <data android:mimeType="*/*" />
+37-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:18:13-44
+37-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:26:19-41
+38        </intent>
+39        <!-- Needs to be explicitly declared on Android R+ -->
+40        <package android:name="com.google.android.apps.maps" />
+40-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+40-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+43-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+44-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+44-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+45    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+45-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+45-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+46    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+46-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+46-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+47-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+48    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+48-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+48-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+49    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+49-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+49-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+50    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+50-->[:disable_battery_optimization] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/disable_battery_optimization/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-95
+50-->[:disable_battery_optimization] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/disable_battery_optimization/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-92
+51    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+51-->[:disable_battery_optimization] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/disable_battery_optimization/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-75
+51-->[:disable_battery_optimization] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/disable_battery_optimization/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-72
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+55        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+55-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+56    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+56-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+56-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+57
+58    <permission
+58-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+59        android:name="de.belitzo.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+59-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+60        android:protectionLevel="signature" />
+60-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+61
+62    <uses-permission android:name="de.belitzo.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+62-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+62-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+63
+64    <application
+64-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:30:5-85:19
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f1997ab18590d1e1c70a85fe344e1900/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+66        android:icon="@mipmap/ic_launcher"
+66-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:35:9-43
+67        android:label="StackFood Delivery"
+67-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:32:9-43
+68        android:requestLegacyExternalStorage="true"
+68-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:33:9-52
+69        android:usesCleartextTraffic="true" >
+69-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:34:9-44
+70        <meta-data
+70-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:36:9-37:70
+71            android:name="com.google.android.geo.API_KEY"
+71-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:36:20-65
+72            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ" />
+72-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:37:13-68
+73
+74        <activity
+74-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:39:9-75:20
+75            android:name="de.belitzo.driver.MainActivity"
+75-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:40:13-41
+76            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+76-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:43:13-163
+77            android:exported="true"
+77-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:45:13-36
+78            android:hardwareAccelerated="true"
+78-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:44:13-47
+79            android:launchMode="singleTop"
+79-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:41:13-43
+80            android:theme="@style/LaunchTheme"
+80-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:42:13-47
+81            android:windowSoftInputMode="adjustResize" >
+81-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:46:13-55
+82
+83            <!--
+84                 Specifies an Android theme to apply to this Activity as soon as
+85                 the Android process has started. This theme is visible to the user
+86                 while the Flutter UI initializes. After that, this theme continues
+87                 to determine the Window background behind the Flutter UI.
+88            -->
+89            <meta-data
+89-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:51:13-54:17
+90                android:name="io.flutter.embedding.android.NormalTheme"
+90-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:52:15-70
+91                android:resource="@style/NormalTheme" />
+91-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:53:15-52
+92            <!--
+93                 Displays an Android View that continues showing the launch screen
+94                 Drawable until Flutter paints its first frame, then this splash
+95                 screen fades out. A splash screen is useful to avoid any visual
+96                 gap between the end of Android's launch screen and the painting of
+97                 Flutter's first frame.
+98            -->
+99            <meta-data
+99-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:60:13-63:17
+100                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+100-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:61:15-79
+101                android:resource="@drawable/launch_background" />
+101-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:62:15-61
+102            <meta-data
+102-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:64:13-66:45
+103                android:name="com.google.firebase.messaging.default_notification_channel_id"
+103-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:65:17-93
+104                android:value="stackfood" />
+104-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:66:17-42
+105
+106            <intent-filter>
+106-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:67:13-70:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:68:17-68
+107-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:68:25-66
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:69:17-76
+109-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:69:27-74
+110            </intent-filter>
+111            <intent-filter>
+111-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:71:13-74:29
+112                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+112-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:72:17-69
+112-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:72:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:73:17-76
+114-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:73:27-73
+115            </intent-filter>
+116        </activity>
+117        <!--
+118             Don't delete the meta-data below.
+119             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+120        -->
+121        <service
+121-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:78:9-81:40
+122            android:name="de.belitzo.driver.BackgroundService"
+122-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:79:13-63
+123            android:enabled="true"
+123-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:80:13-35
+124            android:exported="false" />
+124-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:81:13-37
+125
+126        <meta-data
+126-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:82:9-84:33
+127            android:name="flutterEmbedding"
+127-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:83:13-44
+128            android:value="2" />
+128-->/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/android/app/src/main/AndroidManifest.xml:84:13-30
+129
+130        <service
+130-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+131            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+131-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+132            android:exported="false"
+132-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" />
+133-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+134        <service
+134-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+135-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+136            android:exported="false" >
+136-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+137            <intent-filter>
+137-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+138                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+138-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+138-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+139            </intent-filter>
+140        </service>
+141
+142        <receiver
+142-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+143-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+144            android:exported="true"
+144-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+146            <intent-filter>
+146-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+147-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+148            </intent-filter>
+149        </receiver>
+150
+151        <service
+151-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+152            android:name="com.google.firebase.components.ComponentDiscoveryService"
+152-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:54:13-37
+155            <meta-data
+155-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+156-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+158            <meta-data
+158-->[:firebase_core] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+159-->[:firebase_core] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[:firebase_core] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+162                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+162-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-iid:21.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/d2523fab5fd4969d6f6d6a44b5310c26/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+165                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+165-->[com.google.firebase:firebase-iid:21.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/d2523fab5fd4969d6f6d6a44b5310c26/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-iid:21.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/d2523fab5fd4969d6f6d6a44b5310c26/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-installations:17.1.3] /Users/shlokpardeshi/.gradle/caches/transforms-3/0648cdfca0af13884e8110a6dd07b651/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+168                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+168-->[com.google.firebase:firebase-installations:17.1.3] /Users/shlokpardeshi/.gradle/caches/transforms-3/0648cdfca0af13884e8110a6dd07b651/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-installations:17.1.3] /Users/shlokpardeshi/.gradle/caches/transforms-3/0648cdfca0af13884e8110a6dd07b651/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/shlokpardeshi/.gradle/caches/transforms-3/d5036096766b0b48b5b4fcd760d4bb57/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+171                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+171-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/shlokpardeshi/.gradle/caches/transforms-3/d5036096766b0b48b5b4fcd760d4bb57/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/shlokpardeshi/.gradle/caches/transforms-3/d5036096766b0b48b5b4fcd760d4bb57/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+173        </service>
+174
+175        <provider
+175-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+176-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+177            android:authorities="de.belitzo.driver.flutterfirebasemessaginginitprovider"
+177-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+178            android:exported="false"
+178-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+179            android:initOrder="99" />
+179-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+180
+181        <service
+181-->[:geolocator_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+182            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+182-->[:geolocator_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+183            android:enabled="true"
+183-->[:geolocator_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+184            android:exported="false"
+184-->[:geolocator_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+185            android:foregroundServiceType="location" />
+185-->[:geolocator_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+186
+187        <provider
+187-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+188            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+188-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+189            android:authorities="de.belitzo.driver.flutter.image_provider"
+189-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+190            android:exported="false"
+190-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+191            android:grantUriPermissions="true" >
+191-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+192            <meta-data
+192-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+193                android:name="android.support.FILE_PROVIDER_PATHS"
+193-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+194                android:resource="@xml/flutter_image_picker_file_paths" />
+194-->[:image_picker_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+195        </provider>
+196
+197        <receiver
+197-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+198            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+198-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+199            android:exported="false" />
+199-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+200        <receiver
+200-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+201            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+201-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+202            android:exported="false" />
+202-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+203        <receiver
+203-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+204            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+204-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+205            android:exported="false" >
+205-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+206            <intent-filter>
+206-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+207                <action android:name="android.intent.action.BOOT_COMPLETED" />
+207-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+207-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+208                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+208-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+208-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+209                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+209-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+209-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+210                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+210-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+210-->[:flutter_local_notifications] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+211            </intent-filter>
+212        </receiver>
+213
+214        <activity
+214-->[:url_launcher_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+215            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+215-->[:url_launcher_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+216            android:exported="false"
+216-->[:url_launcher_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+217            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+217-->[:url_launcher_android] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+218        <uses-library
+218-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+219            android:name="org.apache.http.legacy"
+219-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+220            android:required="false" />
+220-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/c1e6c33b1df6b42ffe5516a1bcd8b266/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+221
+222        <receiver
+222-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+223            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+223-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+224            android:exported="true"
+224-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+225            android:permission="com.google.android.c2dm.permission.SEND" >
+225-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+226            <intent-filter>
+226-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+227                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+227-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+227-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+228            </intent-filter>
+229        </receiver>
+230        <!--
+231             FirebaseMessagingService performs security checks at runtime,
+232             but set to not exported to explicitly avoid allowing another app to call it.
+233        -->
+234        <service
+234-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+235            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+235-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+236            android:directBootAware="true"
+236-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+237            android:exported="false" >
+237-->[com.google.firebase:firebase-messaging:23.1.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/4be9db2e83fe690e31569f939fe50a19/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+238            <intent-filter android:priority="-500" >
+238-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+239                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+239-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+239-->[:firebase_messaging] /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+240            </intent-filter>
+241        </service>
+242
+243        <activity
+243-->[com.google.android.gms:play-services-base:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3d8649fde5256783f38fb411245a95c1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+244            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+244-->[com.google.android.gms:play-services-base:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3d8649fde5256783f38fb411245a95c1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-base:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3d8649fde5256783f38fb411245a95c1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-base:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3d8649fde5256783f38fb411245a95c1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+247
+248        <provider
+248-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+249            android:name="com.google.firebase.provider.FirebaseInitProvider"
+249-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+250            android:authorities="de.belitzo.driver.firebaseinitprovider"
+250-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+251            android:directBootAware="true"
+251-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+252            android:exported="false"
+252-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+253            android:initOrder="100" />
+253-->[com.google.firebase:firebase-common:20.3.2] /Users/shlokpardeshi/.gradle/caches/transforms-3/edcea88fb8a91ca777f9e655cd5c1773/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+254
+255        <meta-data
+255-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f01ac06905777b6ea4902a75e03ec2c9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+256            android:name="com.google.android.gms.version"
+256-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f01ac06905777b6ea4902a75e03ec2c9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+257            android:value="@integer/google_play_services_version" />
+257-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/f01ac06905777b6ea4902a75e03ec2c9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+258
+259        <uses-library
+259-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+260            android:name="androidx.window.extensions"
+260-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+261            android:required="false" />
+261-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+262        <uses-library
+262-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+263            android:name="androidx.window.sidecar"
+263-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+264            android:required="false" />
+264-->[androidx.window:window:1.0.0-beta04] /Users/shlokpardeshi/.gradle/caches/transforms-3/e6f37bae564deafd7b2906a7249778f2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+265
+266        <provider
+266-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+267            android:name="androidx.startup.InitializationProvider"
+267-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+268            android:authorities="de.belitzo.driver.androidx-startup"
+268-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+269            android:exported="false" >
+269-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+270            <meta-data
+270-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+271                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+271-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+272                android:value="androidx.startup" />
+272-->[androidx.emoji2:emoji2:1.0.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/ff2c0e370bb1d11b3539c2533272a9de/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+273            <meta-data
+273-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3193c2f89302e8aa7e8281747929cc15/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+274                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+274-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3193c2f89302e8aa7e8281747929cc15/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+275                android:value="androidx.startup" />
+275-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/shlokpardeshi/.gradle/caches/transforms-3/3193c2f89302e8aa7e8281747929cc15/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+276        </provider>
+277
+278        <service
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+279            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+280            android:exported="false" >
+280-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+281            <meta-data
+281-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+282                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+282-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+283                android:value="cct" />
+283-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/1b607b9717ca847f09e3d57f8c9a1f41/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+284        </service>
+285        <service
+285-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+286            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+286-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+287            android:exported="false"
+287-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+288            android:permission="android.permission.BIND_JOB_SERVICE" >
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+289        </service>
+290
+291        <receiver
+291-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+292            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+292-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+293            android:exported="false" />
+293-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/shlokpardeshi/.gradle/caches/transforms-3/02e1822c26253fcbc86e9d2e639cc34e/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+294    </application>
+295
+296</manifest>
