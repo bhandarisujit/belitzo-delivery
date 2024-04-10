@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.belitzo.driver.app-mergeDebugResources-44:/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/f7a12cd34834862ddd46cc7c7d646142/transformed/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

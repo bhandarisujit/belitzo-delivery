@@ -322,10 +322,10 @@
 
 
 # End of content from /Users/shlokpardeshi/.gradle/caches/transforms-3/88fd7a46ca776579093e255c658d286b/transformed/material-1.5.0/proguard.txt
-# The proguard configuration file for the following section is /Users/shlokpardeshi/.gradle/caches/transforms-3/0d0025892b2b0f99605f50c3be643bac/transformed/jetified-core-0.9.6.0/proguard.txt
+# The proguard configuration file for the following section is /Users/shlokpardeshi/.gradle/caches/transforms-3/41629d5d05580d0c83122694b0878725/transformed/jetified-core-0.9.6.0/proguard.txt
 -keep class me.zhanghai.android.materialprogressbar.** { *; }
-# End of content from /Users/shlokpardeshi/.gradle/caches/transforms-3/0d0025892b2b0f99605f50c3be643bac/transformed/jetified-core-0.9.6.0/proguard.txt
-# The proguard configuration file for the following section is /Users/shlokpardeshi/.gradle/caches/transforms-3/39b55a65c13a9fe342adc059330d6454/transformed/jetified-library-1.4.2/proguard.txt
+# End of content from /Users/shlokpardeshi/.gradle/caches/transforms-3/41629d5d05580d0c83122694b0878725/transformed/jetified-core-0.9.6.0/proguard.txt
+# The proguard configuration file for the following section is /Users/shlokpardeshi/.gradle/caches/transforms-3/bb70cfc6ba7c9a3383cf0520ef030cbb/transformed/jetified-library-1.4.2/proguard.txt
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
 # in /opt/android-sdk/tools/proguard/proguard-android.txt
@@ -346,7 +346,7 @@
 
 -keep class me.zhanghai.android.materialprogressbar.** { *; }
 
-# End of content from /Users/shlokpardeshi/.gradle/caches/transforms-3/39b55a65c13a9fe342adc059330d6454/transformed/jetified-library-1.4.2/proguard.txt
+# End of content from /Users/shlokpardeshi/.gradle/caches/transforms-3/bb70cfc6ba7c9a3383cf0520ef030cbb/transformed/jetified-library-1.4.2/proguard.txt
 # The proguard configuration file for the following section is /Users/shlokpardeshi/.gradle/caches/transforms-3/497ce9ee56e75e33c10f87da1ecc3b8c/transformed/appcompat-1.4.1/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #

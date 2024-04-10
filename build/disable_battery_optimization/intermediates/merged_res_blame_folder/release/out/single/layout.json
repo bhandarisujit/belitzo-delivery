@@ -5,11 +5,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_basic_check.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_basic_check.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_basic_check.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_select_dialog_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_select_dialog_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_calendar_month.xml",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_screen_content_include.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_screen_content_include.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_alert_dialog.xml",
@@ -33,11 +33,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_activity_chooser_view_list_item.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_titleframe.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_stub_titleframe.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_stub_titleframe.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_time_input.xml",
@@ -49,15 +49,15 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_list_menu_item_radio.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_list_menu_item_radio.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_menu_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_menu_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_menu_item_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_menu_item_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_clock_display.xml",
@@ -77,11 +77,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_search_view.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_search_view.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_search_view.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_screen_simple.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_screen_simple.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_screen_simple.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_bottom_navigation_item.xml",
@@ -89,11 +89,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_search_dropdown_item_icons_2line.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/select_dialog_item_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/select_dialog_item_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_alert_select_dialog_item.xml",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_preference_custom.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_preference_custom.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_preference_custom.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_alert_dialog_title.xml",
@@ -137,15 +137,15 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/select_dialog_multichoice_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/select_dialog_multichoice_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_list_menu_item_icon.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_list_menu_item_icon.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_colorchooser_grid.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_stub_colorchooser_grid.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_stub_colorchooser_grid.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/custom_dialog.xml",
@@ -157,7 +157,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_mode_close_item_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_mode_close_item_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_textinput_timepicker.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_activity_chooser_view.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_activity_chooser_view.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/text_view_without_line_height.xml",
@@ -177,7 +177,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_bar_up_container.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_bar_up_container.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_picker_dialog.xml",
@@ -189,7 +189,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_list_menu_item_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_list_menu_item_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/text_view_with_line_height_from_appearance.xml",
@@ -197,11 +197,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_list.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_list.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_list.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/support_simple_spinner_dropdown_item.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_menu_item_action_area.xml",
@@ -213,11 +213,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_colorchooser.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_dialog_colorchooser.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_dialog_colorchooser.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_screen_toolbar.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_screen_toolbar.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_timepicker_dialog.xml",
@@ -233,15 +233,15 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_expanded_menu_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_expanded_menu_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_custom.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_custom.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_custom.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_cascading_menu_item_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_cascading_menu_item_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_cascading_menu_item_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_text_input_start_icon.xml",
@@ -249,11 +249,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/select_dialog_singlechoice_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/select_dialog_singlechoice_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_listitem_multichoice.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_listitem_multichoice.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_listitem_multichoice.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_text_input_end_icon.xml",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_progress.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_progress.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_progress.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_calendar_year.xml",
@@ -273,7 +273,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_listitem_singlechoice.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_listitem_singlechoice.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_listitem_singlechoice.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_layout_snackbar_include.xml",
@@ -281,7 +281,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_popup_menu_item_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_popup_menu_item_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_chip_input_combo.xml",
@@ -293,7 +293,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_alert_dialog_title_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_alert_dialog_title_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_timepicker_textinput_display.xml",
@@ -321,7 +321,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_listitem.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_listitem.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_listitem.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_time_chip.xml",
@@ -329,7 +329,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_tooltip.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_tooltip.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_tooltip.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/text_view_with_line_height_from_style.xml",
@@ -357,15 +357,15 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_list_check.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_list_check.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_list_check.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_mode_bar.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_mode_bar.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_list_menu_item_checkbox.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_list_menu_item_checkbox.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_alert_dialog_actions.xml",
@@ -373,7 +373,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_input_check.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_input_check.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_input_check.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/test_toolbar_elevation.xml",
@@ -381,7 +381,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_progress_indeterminate.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_progress_indeterminate.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_progress_indeterminate.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_layout_snackbar.xml",
@@ -389,11 +389,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_basic.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_basic.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_basic.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_input.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_input.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_input.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/test_design_checkbox.xml",
@@ -401,11 +401,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_action_bar_title_item.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_action_bar_title_item.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_colorchooser_custom.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_stub_colorchooser_custom.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_stub_colorchooser_custom.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_picker_actions.xml",
@@ -413,11 +413,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_titleframe_lesspadding.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_stub_titleframe_lesspadding.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_stub_titleframe_lesspadding.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_dialog_progress_indeterminate_horizontal.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_dialog_progress_indeterminate_horizontal.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_dialog_progress_indeterminate_horizontal.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_picker_fullscreen.xml",
@@ -429,7 +429,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_screen_simple_overlay_action_mode.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_navigation_item_subheader.xml",
@@ -437,7 +437,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_actionbuttons.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-1:/layout/md_stub_actionbuttons.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-core-0.9.6.0-5:/layout/md_stub_actionbuttons.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/design_layout_tab_text.xml",
@@ -449,7 +449,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_stub_inputpref.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_stub_inputpref.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_stub_inputpref.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/text_view_with_theme_line_height.xml",
@@ -461,7 +461,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_alert_dialog_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_alert_dialog_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/material_radial_view_group.xml",
@@ -489,11 +489,11 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/md_simplelist_item.xml",
-        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-16:/layout/md_simplelist_item.xml"
+        "source": "in.jvapps.disable_battery_optimization-jetified-commons-0.9.6.0-10:/layout/md_simplelist_item.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_alert_dialog_button_bar_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_alert_select_dialog_multichoice.xml",
@@ -501,7 +501,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_popup_menu_header_item_layout.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/mtrl_calendar_month_labeled.xml",
@@ -513,7 +513,7 @@
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/abc_dialog_title_material.xml",
-        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-7:/layout/abc_dialog_title_material.xml"
+        "source": "in.jvapps.disable_battery_optimization-appcompat-1.4.1-6:/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "in.jvapps.disable_battery_optimization-merged_res-29:/layout/test_reflow_chipgroup.xml",

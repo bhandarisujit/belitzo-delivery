@@ -4,7 +4,7 @@
             "outputFile": "in.jvapps.disable_battery_optimization-merged_res-29:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/0d0025892b2b0f99605f50c3be643bac/transformed/jetified-core-0.9.6.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/41629d5d05580d0c83122694b0878725/transformed/jetified-core-0.9.6.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "in.jvapps.disable_battery_optimization-mergeReleaseResources-27:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/0d0025892b2b0f99605f50c3be643bac/transformed/jetified-core-0.9.6.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/41629d5d05580d0c83122694b0878725/transformed/jetified-core-0.9.6.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

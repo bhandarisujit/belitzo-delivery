@@ -5,7 +5,7 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-bom"
-    version: "31.5.0"
+    version: "32.0.0"
   }
   repo_index {
   }
@@ -1291,7 +1291,7 @@ library {
 }
 library {
   digests {
-    sha256: "\375\352\345\235\351\354\036\225<\033!\032BE}j\264\210g8\351.\n\"\363\037OA\335-\355\327"
+    sha256: "\017\245S\270Y\222;F\005L&\325\244\313\315\343\317\245%\025\223W\226#X\006+\360\366b\347C"
   }
 }
 library_dependencies {

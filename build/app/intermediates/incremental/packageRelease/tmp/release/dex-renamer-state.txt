@@ -1,4 +1,4 @@
-#Tue Jun 06 21:56:21 IST 2023
+#Wed Oct 11 22:42:53 IST 2023
 base.0=/Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

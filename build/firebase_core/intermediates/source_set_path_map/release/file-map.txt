@@ -10,5 +10,5 @@ io.flutter.plugins.firebase.core.firebase_core-rs-8 /Users/shlokpardeshi/Documen
 io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
 io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
 io.flutter.plugins.firebase.core.firebase_core-merged_res-11 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/Belitzo.de/Delivery/belitzo-delivery/build/firebase_core/intermediates/merged_res/release
-io.flutter.plugins.firebase.core.firebase_core-main-12 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.11.0/android/src/main/res
-io.flutter.plugins.firebase.core.firebase_core-release-13 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.11.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-main-12 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.14.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-13 /Users/shlokpardeshi/Documents/Dev/Sujit/flutter/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.14.0/android/src/release/res

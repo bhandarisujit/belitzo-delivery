@@ -4,7 +4,7 @@
             "outputFile": "de.mintware.barcode_scan.barcode_scan2-merged_res-18:/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/13bead125d8ff2e7ee2a4dfcb9a0b0c2/transformed/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/f7a12cd34834862ddd46cc7c7d646142/transformed/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -19,7 +19,7 @@
             "outputFile": "de.mintware.barcode_scan.barcode_scan2-mergeReleaseResources-16:/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/13bead125d8ff2e7ee2a4dfcb9a0b0c2/transformed/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/f7a12cd34834862ddd46cc7c7d646142/transformed/jetified-core-1.9.8/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

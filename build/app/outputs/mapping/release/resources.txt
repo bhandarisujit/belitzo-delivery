@@ -124,6 +124,7 @@ SystemUiMode.edgeToEdge
 areNotificationsEnabled
 propertyXName
 USAGE_NOTIFICATION
+2.14.0
 PASSIVE
 emailAddress
 speakers
@@ -139,6 +140,7 @@ UNSET_PRIMARY_NAV
 EDIFACT_ENCODE
 FlutterEngine
 maxLines
+14.6.4
 android.media.metadata.WRITER
 androidx.view.accessibility.Accessibi...
 HandlerLeak
@@ -608,7 +610,6 @@ strings_
 classSimpleName
 newLatLngZoom
 pathData
-14.5.0
 location_updates_with_callback
 DeviceOrientation.landscapeRight
 .jpg
@@ -3809,7 +3810,6 @@ io.flutter.plugins.firebase.messaging...
 audio.onSeekComplete
 IOS
 androidx.lifecycle.savedstate.vm.tag
-2.11.0
 hasVibrator
 WindowInsetsCompat
 vibrator
@@ -5749,30 +5749,30 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @integer/m3_btn_anim_duration_ms
     @dimen/m3_btn_translation_z_hovered
     @dimen/m3_btn_elevated_btn_elevation
-    @integer/m3_btn_anim_delay_ms
     @dimen/m3_btn_translation_z_base
+    @integer/m3_btn_anim_delay_ms
     @dimen/m3_btn_disabled_translation_z
     @dimen/m3_btn_disabled_elevation
 @animator/m3_btn_state_list_anim : reachable=false
     @integer/m3_btn_anim_duration_ms
     @dimen/m3_btn_translation_z_hovered
     @dimen/m3_btn_elevation
-    @integer/m3_btn_anim_delay_ms
     @dimen/m3_btn_translation_z_base
+    @integer/m3_btn_anim_delay_ms
     @dimen/m3_btn_disabled_translation_z
     @dimen/m3_btn_disabled_elevation
 @animator/m3_card_elevated_state_list_anim : reachable=false
-    @integer/m3_card_anim_duration_ms
     @interpolator/mtrl_fast_out_slow_in
-    @integer/m3_card_anim_delay_ms
+    @integer/m3_card_anim_duration_ms
     @dimen/m3_card_elevated_hovered_z
+    @integer/m3_card_anim_delay_ms
     @dimen/m3_card_elevated_dragged_z
     @anim/mtrl_card_lowers_interpolator
 @animator/m3_card_state_list_anim : reachable=false
+    @interpolator/mtrl_fast_out_slow_in
     @integer/m3_card_anim_duration_ms
     @dimen/m3_card_hovered_z
     @integer/m3_card_anim_delay_ms
-    @interpolator/mtrl_fast_out_slow_in
     @dimen/m3_card_dragged_z
     @anim/mtrl_card_lowers_interpolator
 @animator/m3_chip_state_list_anim : reachable=false
@@ -5788,16 +5788,16 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/mtrl_btn_elevation
     @dimen/mtrl_btn_hovered_z
     @dimen/mtrl_btn_focused_z
-    @integer/mtrl_btn_anim_delay_ms
     @dimen/mtrl_btn_z
+    @integer/mtrl_btn_anim_delay_ms
     @dimen/mtrl_btn_disabled_z
     @dimen/mtrl_btn_disabled_elevation
 @animator/mtrl_btn_unelevated_state_list_anim : reachable=false
 @animator/mtrl_card_state_list_anim : reachable=false
+    @interpolator/mtrl_fast_out_slow_in
     @integer/mtrl_card_anim_duration_ms
     @dimen/mtrl_card_dragged_z
     @integer/mtrl_card_anim_delay_ms
-    @interpolator/mtrl_fast_out_slow_in
     @anim/mtrl_card_lowers_interpolator
 @animator/mtrl_chip_state_list_anim : reachable=false
     @integer/mtrl_chip_anim_duration
@@ -5816,8 +5816,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/mtrl_extended_fab_translation_z_pressed
     @dimen/mtrl_extended_fab_elevation
     @dimen/mtrl_extended_fab_translation_z_hovered_focused
-    @integer/mtrl_btn_anim_delay_ms
     @dimen/mtrl_extended_fab_translation_z_base
+    @integer/mtrl_btn_anim_delay_ms
     @dimen/mtrl_extended_fab_disabled_translation_z
     @dimen/mtrl_extended_fab_disabled_elevation
 @animator/mtrl_fab_hide_motion_spec : reachable=true
@@ -7053,12 +7053,12 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/abc_decor_view_status_guard : reachable=true
 @color/abc_decor_view_status_guard_light : reachable=true
 @color/abc_hint_foreground_material_dark : reachable=false
-    @dimen/hint_pressed_alpha_material_dark
     @color/foreground_material_dark
+    @dimen/hint_pressed_alpha_material_dark
     @dimen/hint_alpha_material_dark
 @color/abc_hint_foreground_material_light : reachable=false
-    @dimen/hint_pressed_alpha_material_light
     @color/foreground_material_light
+    @dimen/hint_pressed_alpha_material_light
     @dimen/hint_alpha_material_light
 @color/abc_primary_text_disable_only_material_dark : reachable=false
     @color/bright_foreground_disabled_material_dark
@@ -7206,33 +7206,33 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/m3_appbar_overlay_color : reachable=false
     @attr/elevationOverlayColor
 @color/m3_assist_chip_icon_tint_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
 @color/m3_assist_chip_stroke_color : reachable=false
-    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled_background
     @attr/colorOutline
 @color/m3_button_background_color_selector : reachable=false
     @attr/colorContainer
-    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled_background
 @color/m3_button_foreground_color_selector : reachable=false
     @attr/colorOnContainer
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
 @color/m3_button_outline_color_selector : reachable=false
     @attr/colorOnSurface
     @attr/colorOutline
 @color/m3_button_ripple_color : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnPrimary
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
 @color/m3_button_ripple_color_selector : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnContainer
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7245,10 +7245,10 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorSecondary
     @attr/colorOnSurface
 @color/m3_card_ripple_color : reachable=false
-    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSurfaceVariant
-    @dimen/m3_ripple_focused_alpha
+    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorSecondary
+    @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
     @dimen/m3_ripple_pressed_alpha
@@ -7256,98 +7256,98 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorSecondary
     @attr/colorOutline
 @color/m3_chip_assist_text_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
 @color/m3_chip_background_color : reachable=false
     @attr/colorSecondaryContainer
     @attr/colorSurface
 @color/m3_chip_ripple_color : reachable=false
-    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSurfaceVariant
-    @dimen/m3_ripple_focused_alpha
+    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSecondaryContainer
+    @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
     @dimen/m3_ripple_pressed_alpha
 @color/m3_chip_stroke_color : reachable=false
-    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurfaceVariant
     @attr/colorOutline
 @color/m3_chip_text_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorOnSecondaryContainer
     @attr/colorOnSurfaceVariant
 @color/m3_dark_default_color_primary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dark_on_surface
+    @dimen/material_emphasis_disabled
 @color/m3_dark_default_color_secondary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dark_on_surface
+    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dark_on_surface_variant
 @color/m3_dark_highlighted_text : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dark_primary
+    @dimen/material_emphasis_medium
 @color/m3_dark_hint_foreground : reachable=false
-    @dimen/material_emphasis_high_type
     @color/m3_sys_color_dark_on_background
+    @dimen/material_emphasis_high_type
     @dimen/material_emphasis_medium
 @color/m3_dark_primary_text_disable_only : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dark_on_background
+    @dimen/material_emphasis_medium
 @color/m3_default_color_primary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_light_on_surface
+    @dimen/material_emphasis_disabled
 @color/m3_default_color_secondary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_light_on_surface
+    @dimen/material_emphasis_disabled
     @color/m3_sys_color_light_on_surface_variant
 @color/m3_dynamic_dark_default_color_primary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_dark_on_surface
+    @dimen/material_emphasis_disabled
 @color/m3_dynamic_dark_default_color_secondary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_dark_on_surface
+    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_dark_on_surface_variant
 @color/m3_dynamic_dark_highlighted_text : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dynamic_dark_primary
+    @dimen/material_emphasis_medium
 @color/m3_dynamic_dark_hint_foreground : reachable=false
-    @dimen/material_emphasis_high_type
     @color/m3_sys_color_dynamic_dark_on_background
+    @dimen/material_emphasis_high_type
     @dimen/material_emphasis_medium
 @color/m3_dynamic_dark_primary_text_disable_only : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dynamic_dark_on_background
+    @dimen/material_emphasis_medium
 @color/m3_dynamic_default_color_primary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_light_on_surface
+    @dimen/material_emphasis_disabled
 @color/m3_dynamic_default_color_secondary_text : reachable=false
-    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_light_on_surface
+    @dimen/material_emphasis_disabled
     @color/m3_sys_color_dynamic_light_on_surface_variant
 @color/m3_dynamic_highlighted_text : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dynamic_light_primary
-@color/m3_dynamic_hint_foreground : reachable=false
     @dimen/material_emphasis_medium
+@color/m3_dynamic_hint_foreground : reachable=false
     @color/m3_sys_color_dynamic_light_on_background
+    @dimen/material_emphasis_medium
     @dimen/material_emphasis_disabled
 @color/m3_dynamic_primary_text_disable_only : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_dynamic_light_on_background
+    @dimen/material_emphasis_medium
 @color/m3_elevated_chip_background_color : reachable=false
-    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled_background
     @attr/colorSecondaryContainer
     @attr/colorSurface
 @color/m3_highlighted_text : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_light_primary
-@color/m3_hint_foreground : reachable=false
     @dimen/material_emphasis_medium
+@color/m3_hint_foreground : reachable=false
     @color/m3_sys_color_light_on_background
+    @dimen/material_emphasis_medium
     @dimen/material_emphasis_disabled
 @color/m3_navigation_bar_item_with_indicator_icon_tint : reachable=false
     @attr/colorOnSecondaryContainer
@@ -7356,29 +7356,29 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorOnSurface
     @attr/colorOnSurfaceVariant
 @color/m3_navigation_bar_ripple_color_selector : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorPrimary
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @attr/colorOnSurfaceVariant
 @color/m3_navigation_item_background_color : reachable=false
     @attr/colorSecondaryContainer
 @color/m3_navigation_item_icon_tint : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurfaceVariant
+    @dimen/material_emphasis_disabled
     @attr/colorOnSecondaryContainer
 @color/m3_navigation_item_text_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurfaceVariant
+    @dimen/material_emphasis_disabled
     @attr/colorOnSecondaryContainer
 @color/m3_popupmenu_overlay_color : reachable=false
     @attr/elevationOverlayColor
 @color/m3_primary_text_disable_only : reachable=false
-    @dimen/material_emphasis_medium
     @color/m3_sys_color_light_on_background
+    @dimen/material_emphasis_medium
 @color/m3_radiobutton_ripple_tint : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorPrimary
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7528,37 +7528,37 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/m3_ref_palette_tertiary95 : reachable=false
 @color/m3_ref_palette_tertiary99 : reachable=false
 @color/m3_selection_control_button_tint : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
 @color/m3_selection_control_ripple_color_selector : reachable=false
-    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSurface
-    @dimen/m3_ripple_focused_alpha
+    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorPrimary
+    @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
 @color/m3_slider_active_track_color : reachable=false
     @attr/colorPrimary
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
 @color/m3_slider_halo_color : reachable=false
     @attr/colorPrimary
 @color/m3_slider_inactive_track_color : reachable=false
     @attr/colorSurfaceVariant
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
 @color/m3_slider_thumb_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
 @color/m3_switch_thumb_tint : reachable=false
     @attr/colorOnSurfaceInverse
     @attr/colorPrimary
     @attr/colorOnSurface
 @color/m3_switch_track_tint : reachable=false
-    @dimen/material_emphasis_disabled_background
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled_background
     @attr/colorPrimaryContainer
     @attr/colorOutline
 @color/m3_sys_color_dark_background : reachable=false
@@ -7754,13 +7754,13 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/m3_sys_color_light_tertiary_container : reachable=false
     @color/m3_ref_palette_tertiary90
 @color/m3_tabs_icon_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
     @attr/colorOnSurfaceVariant
 @color/m3_tabs_ripple_color : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorPrimary
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7770,22 +7770,22 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorSecondaryContainer
     @attr/colorContainer
 @color/m3_text_button_foreground_color_selector : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorOnContainer
     @attr/colorOnSecondaryContainer
 @color/m3_text_button_ripple_color_selector : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnContainer
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
-    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSurface
+    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSecondaryContainer
 @color/m3_textfield_filled_background_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurfaceInverse
+    @dimen/material_emphasis_disabled
     @attr/colorSurfaceVariant
 @color/m3_textfield_indicator_text_color : reachable=false
     @attr/colorOnSurface
@@ -7793,29 +7793,29 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/m3_textfield_input_text_color : reachable=false
     @attr/colorOnSurface
 @color/m3_textfield_label_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
     @attr/colorOnSurfaceVariant
 @color/m3_textfield_stroke_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorPrimary
     @attr/colorOutline
 @color/m3_timepicker_button_background_color : reachable=false
     @attr/colorTertiaryContainer
     @attr/colorSurface
 @color/m3_timepicker_button_ripple_color : reachable=false
-    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSurfaceVariant
-    @dimen/m3_ripple_focused_alpha
+    @dimen/m3_ripple_selectable_pressed_alpha
     @attr/colorOnSecondaryContainer
+    @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
     @dimen/m3_ripple_pressed_alpha
 @color/m3_timepicker_button_text_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorOnTertiaryContainer
     @attr/colorOnSurfaceVariant
 @color/m3_timepicker_clock_text_color : reachable=false
@@ -7825,8 +7825,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorPrimaryContainer
     @attr/colorSurfaceVariant
 @color/m3_timepicker_display_ripple_color : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnPrimaryContainer
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7835,12 +7835,12 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/m3_timepicker_display_stroke_color : reachable=false
     @attr/colorPrimary
 @color/m3_timepicker_display_text_color : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
     @attr/colorOnPrimaryContainer
 @color/m3_timepicker_secondary_text_button_ripple_color : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnSurface
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7848,8 +7848,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorOnSurfaceVariant
     @attr/colorOnSurface
 @color/m3_tonal_button_ripple_color_selector : reachable=false
-    @dimen/m3_ripple_pressed_alpha
     @attr/colorOnContainer
+    @dimen/m3_ripple_pressed_alpha
     @dimen/m3_ripple_focused_alpha
     @dimen/m3_ripple_hovered_alpha
     @dimen/m3_ripple_default_alpha
@@ -7999,32 +7999,32 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/material_grey_850 : reachable=false
 @color/material_grey_900 : reachable=false
 @color/material_on_background_disabled : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnBackground
+    @dimen/material_emphasis_disabled
 @color/material_on_background_emphasis_high_type : reachable=false
-    @dimen/material_emphasis_high_type
     @attr/colorOnBackground
+    @dimen/material_emphasis_high_type
 @color/material_on_background_emphasis_medium : reachable=false
-    @dimen/material_emphasis_medium
     @attr/colorOnBackground
+    @dimen/material_emphasis_medium
 @color/material_on_primary_disabled : reachable=false
-    @dimen/material_emphasis_disabled
     @attr/colorOnPrimary
+    @dimen/material_emphasis_disabled
 @color/material_on_primary_emphasis_high_type : reachable=false
-    @dimen/material_emphasis_high_type
     @attr/colorOnPrimary
+    @dimen/material_emphasis_high_type
 @color/material_on_primary_emphasis_medium : reachable=false
-    @dimen/material_emphasis_medium
     @attr/colorOnPrimary
-@color/material_on_surface_disabled : reachable=false
-    @dimen/material_emphasis_disabled
-    @attr/colorOnSurface
-@color/material_on_surface_emphasis_high_type : reachable=false
-    @dimen/material_emphasis_high_type
-    @attr/colorOnSurface
-@color/material_on_surface_emphasis_medium : reachable=false
     @dimen/material_emphasis_medium
+@color/material_on_surface_disabled : reachable=false
     @attr/colorOnSurface
+    @dimen/material_emphasis_disabled
+@color/material_on_surface_emphasis_high_type : reachable=false
+    @attr/colorOnSurface
+    @dimen/material_emphasis_high_type
+@color/material_on_surface_emphasis_medium : reachable=false
+    @attr/colorOnSurface
+    @dimen/material_emphasis_medium
 @color/material_on_surface_stroke : reachable=false
     @attr/colorOnSurface
 @color/material_slider_active_tick_marks_color : reachable=false
@@ -8065,8 +8065,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorPrimary
     @attr/colorOnSurface
 @color/mtrl_btn_ripple_color : reachable=false
-    @dimen/mtrl_high_ripple_pressed_alpha
     @attr/colorOnPrimary
+    @dimen/mtrl_high_ripple_pressed_alpha
     @dimen/mtrl_high_ripple_focused_alpha
     @dimen/mtrl_high_ripple_hovered_alpha
     @dimen/mtrl_high_ripple_default_alpha
@@ -8076,8 +8076,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/mtrl_btn_text_btn_bg_color_selector : reachable=false
     @attr/colorPrimary
 @color/mtrl_btn_text_btn_ripple_color : reachable=false
-    @dimen/mtrl_low_ripple_pressed_alpha
     @attr/colorPrimary
+    @dimen/mtrl_low_ripple_pressed_alpha
     @dimen/mtrl_low_ripple_focused_alpha
     @dimen/mtrl_low_ripple_hovered_alpha
     @dimen/mtrl_low_ripple_default_alpha
@@ -8108,10 +8108,10 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorPrimary
     @attr/colorOnSurface
 @color/mtrl_choice_chip_ripple_color : reachable=false
-    @dimen/mtrl_low_ripple_pressed_alpha
     @attr/colorPrimary
-    @dimen/mtrl_low_ripple_focused_alpha
+    @dimen/mtrl_low_ripple_pressed_alpha
     @attr/colorOnSurface
+    @dimen/mtrl_low_ripple_focused_alpha
     @dimen/mtrl_low_ripple_hovered_alpha
     @dimen/mtrl_low_ripple_default_alpha
 @color/mtrl_choice_chip_text_color : reachable=false
@@ -8127,8 +8127,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/colorOnSecondary
     @attr/colorOnSurface
 @color/mtrl_fab_ripple_color : reachable=false
-    @dimen/mtrl_high_ripple_pressed_alpha
     @attr/colorOnSecondary
+    @dimen/mtrl_high_ripple_pressed_alpha
     @dimen/mtrl_high_ripple_focused_alpha
     @dimen/mtrl_high_ripple_hovered_alpha
     @dimen/mtrl_high_ripple_default_alpha
@@ -8163,8 +8163,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @color/mtrl_on_primary_text_btn_text_color_selector : reachable=false
     @attr/colorOnPrimary
 @color/mtrl_on_surface_ripple_color : reachable=false
-    @dimen/mtrl_low_ripple_pressed_alpha
     @attr/colorOnSurface
+    @dimen/mtrl_low_ripple_pressed_alpha
     @dimen/mtrl_low_ripple_focused_alpha
     @dimen/mtrl_low_ripple_hovered_alpha
     @dimen/mtrl_low_ripple_default_alpha
@@ -8893,8 +8893,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @string/path_password_eye
 @drawable/$avd_hide_password__1 : reachable=false
     @integer/hide_password_duration
-    @string/path_password_eye_mask_visible
     @string/path_password_eye_mask_strike_through
+    @string/path_password_eye_mask_visible
 @drawable/$avd_hide_password__2 : reachable=false
     @integer/hide_password_duration
 @drawable/$avd_show_password__0 : reachable=false
@@ -8903,8 +8903,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @string/path_password_eye
 @drawable/$avd_show_password__1 : reachable=false
     @integer/show_password_duration
-    @string/path_password_eye_mask_strike_through
     @string/path_password_eye_mask_visible
+    @string/path_password_eye_mask_strike_through
 @drawable/$avd_show_password__2 : reachable=false
     @integer/show_password_duration
 @drawable/abc_ab_share_pack_mtrl_alpha : reachable=true
@@ -8925,14 +8925,14 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/abc_button_inset_horizontal_material
     @dimen/abc_button_inset_vertical_material
     @dimen/abc_control_corner_material
-    @dimen/abc_button_padding_horizontal_material
     @dimen/abc_button_padding_vertical_material
+    @dimen/abc_button_padding_horizontal_material
 @drawable/abc_btn_default_mtrl_shape : reachable=true
     @dimen/abc_button_inset_horizontal_material
     @dimen/abc_button_inset_vertical_material
     @dimen/abc_control_corner_material
-    @dimen/abc_button_padding_horizontal_material
     @dimen/abc_button_padding_vertical_material
+    @dimen/abc_button_padding_horizontal_material
 @drawable/abc_btn_radio_material : reachable=true
     @drawable/abc_btn_radio_to_on_mtrl_015
     @drawable/abc_btn_radio_to_on_mtrl_000
@@ -9184,8 +9184,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @drawable/m3_tabs_transparent_background : reachable=false
     @attr/colorSurfaceVariant
 @drawable/material_cursor_drawable : reachable=false
-    @dimen/material_cursor_inset_bottom
     @dimen/material_cursor_inset_top
+    @dimen/material_cursor_inset_bottom
     @dimen/material_cursor_width
     @attr/colorPrimary
 @drawable/material_ic_calendar_black_24dp : reachable=true
@@ -9202,15 +9202,15 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @drawable/material_ic_menu_arrow_down_black_24dp : reachable=false
 @drawable/material_ic_menu_arrow_up_black_24dp : reachable=false
 @drawable/md_btn_selected : reachable=false
-    @dimen/md_button_inset_vertical
     @dimen/md_button_inset_horizontal
+    @dimen/md_button_inset_vertical
     @dimen/md_action_corner_radius
     @color/md_btn_selected
     @dimen/md_button_padding_vertical
     @dimen/md_button_padding_horizontal
 @drawable/md_btn_selected_dark : reachable=false
-    @dimen/md_button_inset_vertical
     @dimen/md_button_inset_horizontal
+    @dimen/md_button_inset_vertical
     @dimen/md_action_corner_radius
     @color/md_btn_selected_dark
     @dimen/md_button_padding_vertical
@@ -9226,8 +9226,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @drawable/md_btn_selector_ripple_dark : reachable=false
     @drawable/md_btn_shape
 @drawable/md_btn_shape : reachable=false
-    @dimen/md_button_inset_vertical
     @dimen/md_button_inset_horizontal
+    @dimen/md_button_inset_vertical
     @dimen/md_action_corner_radius
     @dimen/md_button_padding_vertical
     @dimen/md_button_padding_horizontal
@@ -9269,8 +9269,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/compat_button_inset_horizontal_material
     @dimen/compat_button_inset_vertical_material
     @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_horizontal_material
     @dimen/compat_button_padding_vertical_material
+    @dimen/compat_button_padding_horizontal_material
 @drawable/notification_bg : reachable=true
     @drawable/notification_bg_normal_pressed
     @drawable/notification_bg_normal
@@ -9901,18 +9901,18 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/abc_action_menu_layout : reachable=true
     @attr/actionBarDivider
 @layout/abc_action_mode_bar : reachable=false
-    @attr/actionModeTheme
     @attr/actionModeStyle
+    @attr/actionModeTheme
 @layout/abc_action_mode_close_item_material : reachable=true
-    @attr/actionModeCloseButtonStyle
     @attr/actionModeCloseContentDescription
+    @attr/actionModeCloseButtonStyle
     @attr/actionModeCloseDrawable
 @layout/abc_activity_chooser_view : reachable=false
     @attr/activityChooserViewStyle
     @attr/actionBarItemBackground
 @layout/abc_activity_chooser_view_list_item : reachable=false
-    @attr/dropdownListPreferredItemHeight
     @attr/selectableItemBackground
+    @attr/dropdownListPreferredItemHeight
     @attr/textAppearanceLargePopupMenu
 @layout/abc_alert_dialog_button_bar_material : reachable=false
     @attr/buttonBarStyle
@@ -9923,8 +9923,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @layout/abc_alert_dialog_title_material
     @attr/colorControlHighlight
     @dimen/abc_dialog_padding_top_material
-    @style/TextAppearance_AppCompat_Subhead
     @attr/dialogPreferredPadding
+    @style/TextAppearance_AppCompat_Subhead
     @layout/abc_alert_dialog_button_bar_material
 @layout/abc_alert_dialog_title_material : reachable=false
     @attr/dialogPreferredPadding
@@ -9975,10 +9975,10 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/abc_screen_toolbar : reachable=true
     @layout/abc_screen_content_include
     @attr/actionBarStyle
-    @string/abc_action_bar_up_description
     @attr/toolbarStyle
-    @attr/actionModeTheme
+    @string/abc_action_bar_up_description
     @attr/actionModeStyle
+    @attr/actionModeTheme
 @layout/abc_search_dropdown_item_icons_2line : reachable=true
     @style/RtlOverlay_Widget_AppCompat_Search_DropDown
     @dimen/abc_dropdownitem_icon_width
@@ -9989,28 +9989,28 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/textAppearanceSearchResultSubtitle
     @attr/textAppearanceSearchResultTitle
 @layout/abc_search_view : reachable=true
-    @attr/actionButtonStyle
     @string/abc_searchview_description_search
+    @attr/actionButtonStyle
     @dimen/abc_dropdownitem_icon_width
     @style/RtlOverlay_Widget_AppCompat_SearchView_MagIcon
-    @dimen/abc_dropdownitem_text_padding_left
     @dimen/abc_dropdownitem_text_padding_right
-    @attr/selectableItemBackgroundBorderless
+    @dimen/abc_dropdownitem_text_padding_left
     @string/abc_searchview_description_clear
+    @attr/selectableItemBackgroundBorderless
     @string/abc_searchview_description_submit
     @string/abc_searchview_description_voice
 @layout/abc_select_dialog_material : reachable=false
-    @style/Widget_AppCompat_ListView
-    @attr/listDividerAlertDialog
     @dimen/abc_dialog_list_padding_bottom_no_buttons
     @dimen/abc_dialog_list_padding_top_no_title
+    @attr/listDividerAlertDialog
+    @style/Widget_AppCompat_ListView
 @layout/abc_tooltip : reachable=true
-    @dimen/tooltip_margin
     @dimen/tooltip_horizontal_padding
-    @dimen/tooltip_vertical_padding
+    @attr/tooltipForegroundColor
     @attr/tooltipFrameBackground
     @style/TextAppearance_AppCompat_Tooltip
-    @attr/tooltipForegroundColor
+    @dimen/tooltip_margin
+    @dimen/tooltip_vertical_padding
 @layout/custom_dialog : reachable=false
 @layout/design_bottom_navigation_item : reachable=false
     @dimen/design_bottom_navigation_margin
@@ -10018,36 +10018,36 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/design_bottom_navigation_text_size
     @dimen/design_bottom_navigation_active_text_size
 @layout/design_bottom_sheet_dialog : reachable=false
-    @attr/bottomSheetStyle
     @string/bottom_sheet_behavior
+    @attr/bottomSheetStyle
 @layout/design_layout_snackbar : reachable=false
     @style/Widget_Design_Snackbar
     @style/ThemeOverlay_AppCompat_Dark
 @layout/design_layout_snackbar_include : reachable=false
     @style/ThemeOverlay_AppCompat_Dark
-    @dimen/design_snackbar_padding_vertical
     @dimen/design_snackbar_padding_horizontal
-    @integer/design_snackbar_text_max_lines
     @style/TextAppearance_Design_Snackbar_Message
-    @attr/borderlessButtonStyle
+    @dimen/design_snackbar_padding_vertical
+    @integer/design_snackbar_text_max_lines
     @dimen/design_snackbar_extra_spacing_horizontal
     @attr/colorAccent
+    @attr/borderlessButtonStyle
 @layout/design_layout_tab_icon : reachable=false
 @layout/design_layout_tab_text : reachable=false
 @layout/design_menu_item_action_area : reachable=false
 @layout/design_navigation_item : reachable=false
+    @attr/listPreferredItemPaddingRight
     @attr/listPreferredItemHeightSmall
     @attr/listPreferredItemPaddingLeft
-    @attr/listPreferredItemPaddingRight
     @attr/selectableItemBackground
 @layout/design_navigation_item_header : reachable=false
     @dimen/design_navigation_separator_vertical_padding
 @layout/design_navigation_item_separator : reachable=false
 @layout/design_navigation_item_subheader : reachable=false
-    @attr/listPreferredItemHeightSmall
-    @attr/listPreferredItemPaddingLeft
     @attr/listPreferredItemPaddingRight
     @style/TextAppearance_AppCompat_Body2
+    @attr/listPreferredItemHeightSmall
+    @attr/listPreferredItemPaddingLeft
 @layout/design_navigation_menu : reachable=false
     @dimen/design_navigation_padding_bottom
 @layout/design_navigation_menu_item : reachable=true
@@ -10055,8 +10055,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @style/TextAppearance_AppCompat_Body2
     @layout/design_menu_item_action_area
 @layout/design_text_input_end_icon : reachable=true
-    @dimen/mtrl_textinput_end_icon_margin_start
     @attr/actionBarItemBackground
+    @dimen/mtrl_textinput_end_icon_margin_start
 @layout/design_text_input_start_icon : reachable=true
     @dimen/mtrl_textinput_start_icon_margin_end
     @attr/actionBarItemBackground
@@ -10064,14 +10064,14 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @layout/m3_alert_dialog_title
     @attr/colorControlHighlight
     @dimen/abc_dialog_padding_top_material
-    @attr/materialAlertDialogBodyTextStyle
     @attr/dialogPreferredPadding
+    @attr/materialAlertDialogBodyTextStyle
     @layout/m3_alert_dialog_actions
 @layout/m3_alert_dialog_actions : reachable=false
     @attr/buttonBarStyle
     @attr/dialogPreferredPadding
-    @dimen/m3_alert_dialog_action_top_padding
     @dimen/m3_alert_dialog_action_bottom_padding
+    @dimen/m3_alert_dialog_action_top_padding
     @attr/buttonBarNeutralButtonStyle
     @attr/materialAlertDialogButtonSpacerVisibility
     @attr/buttonBarNegativeButtonStyle
@@ -10086,15 +10086,15 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @layout/material_time_chip
     @layout/material_clock_display_divider
 @layout/material_clock_display_divider : reachable=false
-    @attr/materialDisplayDividerStyle
     @dimen/material_clock_display_padding
+    @attr/materialDisplayDividerStyle
 @layout/material_clock_period_toggle : reachable=false
+    @string/material_clock_toggle_content_description
     @dimen/material_clock_period_toggle_width
     @dimen/material_clock_period_toggle_height
     @dimen/material_clock_period_toggle_margin_left
-    @string/material_clock_toggle_content_description
-    @attr/materialButtonOutlinedStyle
     @attr/shapeAppearanceMediumComponent
+    @attr/materialButtonOutlinedStyle
     @string/material_timepicker_am
     @string/material_timepicker_pm
 @layout/material_clock_period_toggle_land : reachable=false
@@ -10102,8 +10102,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @string/material_timepicker_am
     @string/material_timepicker_pm
 @layout/material_clockface_textview : reachable=true
-    @attr/colorOnSurface
     @dimen/material_clock_number_text_size
+    @attr/colorOnSurface
 @layout/material_clockface_view : reachable=true
 @layout/material_radial_view_group : reachable=true
 @layout/material_textinput_timepicker : reachable=false
@@ -10163,8 +10163,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/md_notitle_vertical_padding
 @layout/md_dialog_input : reachable=true
     @layout/md_stub_titleframe
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
+    @dimen/md_content_padding_bottom
     @dimen/md_content_padding_top
     @dimen/md_content_textsize
     @layout/md_stub_actionbuttons
@@ -10172,29 +10172,29 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @layout/md_stub_titleframe
     @dimen/md_content_padding_bottom
     @dimen/md_content_padding_top
-    @dimen/md_dialog_frame_margin
     @dimen/md_content_textsize
+    @dimen/md_dialog_frame_margin
     @dimen/md_notitle_vertical_padding_more
     @layout/md_stub_actionbuttons
 @layout/md_dialog_list : reachable=true
     @layout/md_stub_titleframe_lesspadding
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
-    @dimen/md_content_padding_top
+    @dimen/md_content_padding_bottom
     @dimen/md_content_textsize
+    @dimen/md_content_padding_top
     @layout/md_stub_actionbuttons
 @layout/md_dialog_list_check : reachable=true
     @layout/md_stub_titleframe_lesspadding
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
-    @dimen/md_content_padding_top
+    @dimen/md_content_padding_bottom
     @dimen/md_content_textsize
+    @dimen/md_content_padding_top
     @dimen/md_notitle_vertical_padding
     @layout/md_stub_actionbuttons
 @layout/md_dialog_progress : reachable=true
     @layout/md_stub_titleframe
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
+    @dimen/md_content_padding_bottom
     @dimen/md_content_padding_top
     @layout/md_stub_progress
     @layout/md_stub_actionbuttons
@@ -10204,8 +10204,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @layout/md_stub_actionbuttons
 @layout/md_dialog_progress_indeterminate_horizontal : reachable=true
     @layout/md_stub_titleframe
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
+    @dimen/md_content_padding_bottom
     @dimen/md_content_padding_top
     @layout/md_stub_progress_indeterminate_horizontal
     @layout/md_stub_actionbuttons
@@ -10213,32 +10213,32 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/selectableItemBackground
     @dimen/md_listitem_height
     @dimen/md_dialog_frame_margin
+    @dimen/md_listitem_textsize
     @dimen/md_listitem_margin_left
     @dimen/md_listitem_vertical_margin
-    @dimen/md_listitem_textsize
 @layout/md_listitem_multichoice : reachable=true
+    @dimen/md_dialog_frame_margin
     @attr/selectableItemBackground
     @dimen/md_listitem_height
-    @dimen/md_dialog_frame_margin
     @dimen/md_listitem_vertical_margin_choice
-    @dimen/md_listitem_control_margin
     @dimen/md_listitem_textsize
+    @dimen/md_listitem_control_margin
 @layout/md_listitem_singlechoice : reachable=true
+    @dimen/md_dialog_frame_margin
     @attr/selectableItemBackground
     @dimen/md_listitem_height
-    @dimen/md_dialog_frame_margin
     @dimen/md_listitem_vertical_margin_choice
-    @dimen/md_listitem_control_margin
     @dimen/md_listitem_textsize
+    @dimen/md_listitem_control_margin
 @layout/md_preference_custom : reachable=false
     @dimen/md_preference_content_inset
 @layout/md_simplelist_item : reachable=false
+    @dimen/md_dialog_frame_margin
     @attr/selectableItemBackground
     @dimen/md_simpleitem_height
-    @dimen/md_dialog_frame_margin
-    @dimen/md_simplelist_icon
     @dimen/md_simplelist_icon_margin
     @drawable/gray_circle
+    @dimen/md_simplelist_icon
     @dimen/md_simplelist_textsize
 @layout/md_stub_actionbuttons : reachable=false
     @style/MD_ActionButton_Text
@@ -10250,37 +10250,37 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/md_stub_colorchooser_grid : reachable=false
     @dimen/md_colorchooser_circlesize
 @layout/md_stub_inputpref : reachable=false
-    @dimen/md_content_padding_bottom
     @dimen/md_dialog_frame_margin
+    @dimen/md_content_padding_bottom
     @dimen/md_content_padding_top
     @dimen/md_content_textsize
 @layout/md_stub_progress : reachable=false
     @dimen/md_content_textsize
     @style/Widget_MaterialProgressBar_ProgressBar_Horizontal
 @layout/md_stub_progress_indeterminate : reachable=false
-    @dimen/md_content_padding_top
     @dimen/md_dialog_frame_margin
+    @dimen/md_content_padding_top
     @style/Widget_MaterialProgressBar_ProgressBar
     @dimen/md_content_textsize
 @layout/md_stub_progress_indeterminate_horizontal : reachable=false
     @dimen/md_content_textsize
     @style/Widget_MaterialProgressBar_ProgressBar_Horizontal
 @layout/md_stub_titleframe : reachable=false
-    @dimen/md_title_frame_margin_bottom
     @dimen/md_dialog_frame_margin
+    @dimen/md_title_frame_margin_bottom
     @dimen/md_icon_margin
     @dimen/md_title_textsize
 @layout/md_stub_titleframe_lesspadding : reachable=false
-    @dimen/md_title_frame_margin_bottom_less
     @dimen/md_dialog_frame_margin
+    @dimen/md_title_frame_margin_bottom_less
     @dimen/md_icon_margin
     @dimen/md_title_textsize
 @layout/mtrl_alert_dialog : reachable=false
     @layout/mtrl_alert_dialog_title
     @attr/colorControlHighlight
     @dimen/abc_dialog_padding_top_material
-    @attr/materialAlertDialogBodyTextStyle
     @attr/dialogPreferredPadding
+    @attr/materialAlertDialogBodyTextStyle
     @layout/mtrl_alert_dialog_actions
 @layout/mtrl_alert_dialog_actions : reachable=false
     @attr/buttonBarStyle
@@ -10294,29 +10294,29 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @attr/materialAlertDialogTitleTextStyle
     @dimen/abc_dialog_title_divider_material
 @layout/mtrl_alert_select_dialog_item : reachable=false
-    @attr/listPreferredItemHeightSmall
-    @attr/materialAlertDialogBodyTextStyle
-    @attr/listPreferredItemPaddingLeft
     @attr/listPreferredItemPaddingRight
+    @attr/listPreferredItemHeightSmall
+    @attr/listPreferredItemPaddingLeft
+    @attr/materialAlertDialogBodyTextStyle
 @layout/mtrl_alert_select_dialog_multichoice : reachable=false
-    @attr/listPreferredItemHeightSmall
-    @dimen/abc_select_dialog_padding_start_material
     @attr/dialogPreferredPadding
+    @dimen/abc_select_dialog_padding_start_material
+    @attr/listPreferredItemHeightSmall
 @layout/mtrl_alert_select_dialog_singlechoice : reachable=false
-    @attr/listPreferredItemHeightSmall
-    @dimen/abc_select_dialog_padding_start_material
     @attr/dialogPreferredPadding
+    @dimen/abc_select_dialog_padding_start_material
+    @attr/listPreferredItemHeightSmall
 @layout/mtrl_calendar_day : reachable=true
-    @attr/materialCalendarDay
     @dimen/mtrl_calendar_day_width
     @dimen/mtrl_calendar_day_height
+    @attr/materialCalendarDay
 @layout/mtrl_calendar_day_of_week : reachable=true
-    @attr/materialCalendarDayOfWeekLabel
     @dimen/mtrl_calendar_day_width
     @dimen/mtrl_calendar_days_of_week_height
+    @attr/materialCalendarDayOfWeekLabel
 @layout/mtrl_calendar_days_of_week : reachable=false
-    @dimen/mtrl_calendar_days_of_week_height
     @dimen/mtrl_calendar_month_horizontal_padding
+    @dimen/mtrl_calendar_days_of_week_height
 @layout/mtrl_calendar_horizontal : reachable=true
     @layout/mtrl_calendar_month_navigation
     @layout/mtrl_calendar_days_of_week
@@ -10325,44 +10325,44 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/mtrl_calendar_month_horizontal_padding
     @dimen/mtrl_calendar_month_vertical_padding
 @layout/mtrl_calendar_month_labeled : reachable=true
-    @attr/materialCalendarMonth
     @dimen/mtrl_calendar_day_height
+    @attr/materialCalendarMonth
     @layout/mtrl_calendar_month
 @layout/mtrl_calendar_month_navigation : reachable=false
-    @dimen/mtrl_calendar_navigation_top_padding
     @dimen/mtrl_calendar_navigation_bottom_padding
-    @attr/materialCalendarYearNavigationButton
-    @dimen/mtrl_calendar_navigation_height
+    @dimen/mtrl_calendar_navigation_top_padding
     @drawable/material_ic_menu_arrow_down_black_24dp
-    @attr/materialCalendarMonthNavigationButton
-    @dimen/mtrl_min_touch_target_size
-    @string/mtrl_picker_a11y_prev_month
+    @dimen/mtrl_calendar_navigation_height
+    @attr/materialCalendarYearNavigationButton
     @drawable/material_ic_keyboard_arrow_previous_black_24dp
-    @string/mtrl_picker_a11y_next_month
+    @string/mtrl_picker_a11y_prev_month
+    @dimen/mtrl_min_touch_target_size
+    @attr/materialCalendarMonthNavigationButton
     @drawable/material_ic_keyboard_arrow_next_black_24dp
+    @string/mtrl_picker_a11y_next_month
 @layout/mtrl_calendar_months : reachable=false
 @layout/mtrl_calendar_vertical : reachable=true
     @layout/mtrl_calendar_days_of_week
     @attr/colorOnSurface
     @layout/mtrl_calendar_months
 @layout/mtrl_calendar_year : reachable=true
-    @attr/materialCalendarDay
     @dimen/mtrl_calendar_year_width
     @dimen/mtrl_calendar_year_height
+    @attr/materialCalendarDay
 @layout/mtrl_layout_snackbar : reachable=false
     @attr/snackbarStyle
 @layout/mtrl_layout_snackbar_include : reachable=false
     @attr/snackbarTextViewStyle
     @attr/snackbarButtonStyle
 @layout/mtrl_navigation_rail_item : reachable=false
-    @dimen/mtrl_navigation_rail_margin
     @dimen/mtrl_navigation_rail_text_bottom_margin
+    @dimen/mtrl_navigation_rail_margin
     @dimen/mtrl_navigation_rail_icon_size
     @dimen/mtrl_navigation_rail_text_size
     @dimen/mtrl_navigation_rail_active_text_size
 @layout/mtrl_picker_actions : reachable=false
-    @dimen/mtrl_calendar_action_height
     @dimen/mtrl_calendar_action_padding
+    @dimen/mtrl_calendar_action_height
     @attr/buttonBarNegativeButtonStyle
     @string/mtrl_picker_cancel
     @attr/buttonBarPositiveButtonStyle
@@ -10371,8 +10371,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/mtrl_picker_dialog : reachable=true
     @integer/mtrl_calendar_header_orientation
     @layout/mtrl_picker_header_dialog
-    @dimen/mtrl_calendar_bottom_padding
     @dimen/mtrl_calendar_content_padding
+    @dimen/mtrl_calendar_bottom_padding
     @layout/mtrl_picker_actions
     @dimen/mtrl_calendar_action_height
 @layout/mtrl_picker_fullscreen : reachable=true
@@ -10380,52 +10380,52 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
     @dimen/mtrl_calendar_content_padding
 @layout/mtrl_picker_header_dialog : reachable=false
     @dimen/mtrl_calendar_header_height
-    @attr/materialCalendarHeaderLayout
     @dimen/mtrl_calendar_header_content_padding
+    @attr/materialCalendarHeaderLayout
     @dimen/mtrl_calendar_header_text_padding
     @layout/mtrl_picker_header_title_text
     @layout/mtrl_picker_header_selection_text
     @layout/mtrl_picker_header_toggle
-    @attr/materialCalendarHeaderDivider
     @dimen/mtrl_calendar_header_divider_thickness
+    @attr/materialCalendarHeaderDivider
     @dimen/mtrl_calendar_landscape_header_width
 @layout/mtrl_picker_header_fullscreen : reachable=false
     @dimen/mtrl_calendar_header_height_fullscreen
-    @attr/materialCalendarHeaderLayout
     @dimen/mtrl_calendar_header_content_padding_fullscreen
-    @attr/materialCalendarHeaderCancelButton
-    @dimen/mtrl_min_touch_target_size
-    @string/mtrl_picker_cancel
+    @attr/materialCalendarHeaderLayout
     @drawable/material_ic_clear_black_24dp
+    @string/mtrl_picker_cancel
+    @dimen/mtrl_min_touch_target_size
+    @attr/materialCalendarHeaderCancelButton
     @dimen/mtrl_calendar_header_text_padding
     @attr/materialCalendarHeaderTitle
     @dimen/mtrl_calendar_title_baseline_to_top_fullscreen
-    @attr/materialCalendarHeaderSelection
-    @dimen/mtrl_calendar_pre_l_text_clip_padding
-    @dimen/mtrl_calendar_selection_baseline_to_top_fullscreen
     @dimen/mtrl_calendar_header_selection_line_height
+    @dimen/mtrl_calendar_pre_l_text_clip_padding
+    @attr/materialCalendarHeaderSelection
+    @dimen/mtrl_calendar_selection_baseline_to_top_fullscreen
     @integer/mtrl_calendar_header_orientation
-    @attr/materialCalendarHeaderConfirmButton
     @string/mtrl_picker_save
+    @attr/materialCalendarHeaderConfirmButton
     @layout/mtrl_picker_header_toggle
-    @attr/materialCalendarHeaderDivider
     @dimen/mtrl_calendar_header_divider_thickness
+    @attr/materialCalendarHeaderDivider
 @layout/mtrl_picker_header_selection_text : reachable=false
+    @dimen/mtrl_calendar_header_selection_line_height
+    @dimen/mtrl_calendar_pre_l_text_clip_padding
     @attr/materialCalendarHeaderSelection
     @dimen/mtrl_calendar_selection_text_baseline_to_top
-    @dimen/mtrl_calendar_header_selection_line_height
-    @dimen/mtrl_calendar_pre_l_text_clip_padding
 @layout/mtrl_picker_header_title_text : reachable=false
     @attr/materialCalendarHeaderTitle
     @dimen/mtrl_calendar_title_baseline_to_top
 @layout/mtrl_picker_header_toggle : reachable=false
-    @attr/materialCalendarHeaderToggleButton
-    @dimen/mtrl_min_touch_target_size
     @dimen/mtrl_calendar_header_toggle_margin_bottom
+    @dimen/mtrl_min_touch_target_size
+    @attr/materialCalendarHeaderToggleButton
     @dimen/mtrl_calendar_header_toggle_margin_top
 @layout/mtrl_picker_text_input_date : reachable=false
-    @dimen/mtrl_calendar_text_input_padding_top
     @dimen/mtrl_calendar_content_padding
+    @dimen/mtrl_calendar_text_input_padding_top
     @string/mtrl_picker_text_input_date_hint
 @layout/mtrl_picker_text_input_date_range : reachable=false
     @dimen/mtrl_calendar_content_padding
@@ -10509,24 +10509,24 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/notification_template_part_time : reachable=true
     @style/TextAppearance_Compat_Notification_Time
 @layout/select_dialog_item_material : reachable=false
+    @attr/listPreferredItemPaddingRight
     @attr/listPreferredItemHeightSmall
     @attr/textAppearanceListItemSmall
     @attr/textColorAlertDialogListItem
     @attr/listPreferredItemPaddingLeft
-    @attr/listPreferredItemPaddingRight
 @layout/select_dialog_multichoice_material : reachable=false
-    @attr/listPreferredItemHeightSmall
+    @attr/dialogPreferredPadding
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
-    @attr/dialogPreferredPadding
+    @attr/listPreferredItemHeightSmall
 @layout/select_dialog_singlechoice_material : reachable=false
-    @attr/listPreferredItemHeightSmall
+    @attr/dialogPreferredPadding
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
-    @attr/dialogPreferredPadding
+    @attr/listPreferredItemHeightSmall
 @layout/support_simple_spinner_dropdown_item : reachable=true
-    @attr/spinnerDropDownItemStyle
     @attr/dropdownListPreferredItemHeight
+    @attr/spinnerDropDownItemStyle
 @layout/test_action_chip : reachable=false
     @style/Widget_MaterialComponents_Chip_Action
     @string/chip_text
@@ -10555,8 +10555,8 @@ Marking id:fragment_container_view_tag:2131230920 used because it matches string
 @layout/text_view_with_line_height_from_appearance : reachable=true
     @style/TestStyleWithLineHeight
 @layout/text_view_with_line_height_from_layout : reachable=true
-    @style/TestStyleWithLineHeight
     @dimen/material_text_view_test_line_height_override
+    @style/TestStyleWithLineHeight
 @layout/text_view_with_line_height_from_style : reachable=true
     @style/TestStyleWithLineHeightAppearance
 @layout/text_view_with_theme_line_height : reachable=true
@@ -19624,7 +19624,7 @@ Skipped unused resource res/color/common_google_signin_btn_text_light.xml: 1113 
 Skipped unused resource res/color/common_google_signin_btn_tint.xml: 409 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_appbar_overlay_color.xml: 309 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_assist_chip_icon_tint_color.xml: 576 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_assist_chip_stroke_color.xml: 1274 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_assist_chip_stroke_color.xml: 1275 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_button_background_color_selector.xml: 602 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_button_foreground_color_selector.xml: 584 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_button_outline_color_selector.xml: 509 bytes (replaced with small dummy file of size 9 bytes)
@@ -19633,31 +19633,31 @@ Skipped unused resource res/color/m3_button_ripple_color_selector.xml: 1442 byte
 Skipped unused resource res/color/m3_calendar_item_disabled_text.xml: 294 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_calendar_item_stroke_color.xml: 910 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_card_foreground_color.xml: 953 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_card_ripple_color.xml: 3745 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_card_ripple_color.xml: 3752 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_card_stroke_color.xml: 431 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_chip_assist_text_color.xml: 580 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_chip_background_color.xml: 918 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_chip_ripple_color.xml: 3841 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_chip_stroke_color.xml: 1289 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_chip_ripple_color.xml: 3849 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_chip_stroke_color.xml: 1290 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_chip_text_color.xml: 839 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_dark_default_color_primary_text.xml: 639 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_dark_default_color_secondary_text.xml: 655 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_dark_highlighted_text.xml: 380 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_dark_hint_foreground.xml: 874 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_dark_primary_text_disable_only.xml: 647 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_dark_primary_text_disable_only.xml: 648 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_default_color_primary_text.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_default_color_secondary_text.xml: 659 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_elevated_chip_background_color.xml: 1075 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_elevated_chip_background_color.xml: 1076 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_highlighted_text.xml: 382 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_hint_foreground.xml: 876 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_navigation_bar_item_with_indicator_icon_tint.xml: 474 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_navigation_bar_item_with_indicator_label_tint.xml: 451 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_navigation_bar_ripple_color_selector.xml: 2631 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_navigation_bar_ripple_color_selector.xml: 2636 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_navigation_item_background_color.xml: 704 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_navigation_item_icon_tint.xml: 853 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_navigation_item_text_color.xml: 853 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_navigation_item_icon_tint.xml: 854 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_navigation_item_text_color.xml: 854 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_popupmenu_overlay_color.xml: 309 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_primary_text_disable_only.xml: 651 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_primary_text_disable_only.xml: 652 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_radiobutton_ripple_tint.xml: 3102 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_selection_control_button_tint.xml: 879 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_selection_control_ripple_color_selector.xml: 3128 bytes (replaced with small dummy file of size 9 bytes)
@@ -19670,21 +19670,21 @@ Skipped unused resource res/color/m3_switch_track_tint.xml: 832 bytes (replaced 
 Skipped unused resource res/color/m3_tabs_icon_color.xml: 812 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_tabs_ripple_color.xml: 3151 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_text_button_background_color_selector.xml: 536 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_text_button_foreground_color_selector.xml: 1048 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_text_button_ripple_color_selector.xml: 4938 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_textfield_filled_background_color.xml: 606 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_text_button_foreground_color_selector.xml: 1049 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_text_button_ripple_color_selector.xml: 4947 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_textfield_filled_background_color.xml: 607 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_textfield_indicator_text_color.xml: 529 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_textfield_input_text_color.xml: 513 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_textfield_label_color.xml: 811 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_textfield_stroke_color.xml: 1010 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_button_background_color.xml: 614 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_timepicker_button_ripple_color.xml: 3752 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_timepicker_button_text_color.xml: 1202 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_timepicker_button_ripple_color.xml: 3760 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_timepicker_button_text_color.xml: 1204 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_clock_text_color.xml: 439 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_display_background_color.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_timepicker_display_ripple_color.xml: 3221 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_timepicker_display_ripple_color.xml: 3226 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_display_stroke_color.xml: 442 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/m3_timepicker_display_text_color.xml: 819 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/m3_timepicker_display_text_color.xml: 820 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_secondary_text_button_ripple_color.xml: 1426 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_timepicker_secondary_text_button_text_color.xml: 528 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/m3_tonal_button_ripple_color_selector.xml: 1442 bytes (replaced with small dummy file of size 9 bytes)
@@ -19708,9 +19708,9 @@ Skipped unused resource res/color/material_timepicker_button_stroke.xml: 294 byt
 Skipped unused resource res/color/material_timepicker_modebutton_tint.xml: 293 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_btn_stroke_color_selector.xml: 592 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_btn_text_btn_bg_color_selector.xml: 601 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/mtrl_btn_text_btn_ripple_color.xml: 1905 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/mtrl_btn_text_btn_ripple_color.xml: 1906 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_choice_chip_background_color.xml: 1339 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/mtrl_choice_chip_ripple_color.xml: 1921 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/mtrl_choice_chip_ripple_color.xml: 1924 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_choice_chip_text_color.xml: 1185 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_error.xml: 423 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_filled_icon_tint.xml: 808 bytes (replaced with small dummy file of size 9 bytes)
@@ -19719,7 +19719,7 @@ Skipped unused resource res/color/mtrl_indicator_text_color.xml: 590 bytes (repl
 Skipped unused resource res/color/mtrl_navigation_bar_colored_item_tint.xml: 588 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_navigation_bar_colored_ripple_color.xml: 1560 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_navigation_bar_item_tint.xml: 584 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/mtrl_navigation_bar_ripple_color.xml: 3435 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/mtrl_navigation_bar_ripple_color.xml: 3436 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_navigation_item_background_color.xml: 812 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_navigation_item_icon_tint.xml: 728 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_navigation_item_text_color.xml: 728 bytes (replaced with small dummy file of size 9 bytes)
@@ -19730,8 +19730,8 @@ Skipped unused resource res/color/mtrl_popupmenu_overlay_color.xml: 309 bytes (r
 Skipped unused resource res/color/mtrl_tabs_colored_ripple_color.xml: 1560 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_tabs_icon_color_selector.xml: 510 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/mtrl_tabs_icon_color_selector_colored.xml: 514 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/mtrl_tabs_ripple_color.xml: 3435 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color/mtrl_text_btn_text_color_selector.xml: 1507 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/mtrl_tabs_ripple_color.xml: 3436 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/mtrl_text_btn_text_color_selector.xml: 1509 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/radiobutton_themeable_attribute_color.xml: 450 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/test_mtrl_calendar_day.xml: 233 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color/test_mtrl_calendar_day_selected.xml: 231 bytes (replaced with small dummy file of size 9 bytes)
@@ -19741,12 +19741,12 @@ Skipped unused resource res/color-v31/m3_dynamic_dark_default_color_primary_text
 Skipped unused resource res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml: 687 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_dark_highlighted_text.xml: 396 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_dark_hint_foreground.xml: 906 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml: 679 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml: 680 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_default_color_primary_text.xml: 675 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_default_color_secondary_text.xml: 691 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_highlighted_text.xml: 398 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/color-v31/m3_dynamic_hint_foreground.xml: 908 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/color-v31/m3_dynamic_primary_text_disable_only.xml: 683 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color-v31/m3_dynamic_primary_text_disable_only.xml: 684 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/common_google_signin_btn_icon_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_normal.xml: 567 bytes (replaced with small dummy file of size 9 bytes)
@@ -19767,7 +19767,7 @@ Skipped unused resource res/drawable/ic_clock_black_24dp.xml: 765 bytes (replace
 Skipped unused resource res/drawable/ic_keyboard_black_24dp.xml: 866 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/ic_m3_chip_check.xml: 851 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/ic_m3_chip_checked_circle.xml: 1288 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/ic_m3_chip_close.xml: 668 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/ic_m3_chip_close.xml: 669 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/ic_mtrl_chip_checked_black.xml: 617 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/m3_popupmenu_background_overlay.xml: 735 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/m3_tabs_background.xml: 670 bytes (replaced with small dummy file of size 9 bytes)
@@ -19776,12 +19776,12 @@ Skipped unused resource res/drawable/m3_tabs_rounded_line_indicator.xml: 925 byt
 Skipped unused resource res/drawable/material_ic_menu_arrow_up_black_24dp.xml: 725 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/md_btn_selected.xml: 1729 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/md_btn_selected_dark.xml: 1740 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/md_btn_selector.xml: 850 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/md_btn_selector_dark.xml: 870 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/md_btn_selector.xml: 852 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/md_btn_selector_dark.xml: 872 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/md_item_selected.xml: 296 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/md_item_selected_dark.xml: 307 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/md_selector.xml: 854 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/md_selector_dark.xml: 874 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/md_selector.xml: 856 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/md_selector_dark.xml: 876 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/md_transparent.xml: 303 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/mtrl_dialog_background.xml: 1154 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/mtrl_ic_error.xml: 698 bytes (replaced with small dummy file of size 9 bytes)
@@ -19856,7 +19856,7 @@ Skipped unused resource res/layout/material_timepicker_textinput_display.xml: 99
 Skipped unused resource res/layout/md_dialog_colorchooser.xml: 963 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/md_preference_custom.xml: 5570 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/md_simplelist_item.xml: 2962 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/md_stub_colorchooser_custom.xml: 18674 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/md_stub_colorchooser_custom.xml: 18688 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/md_stub_colorchooser_grid.xml: 1236 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/md_stub_inputpref.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/mtrl_alert_dialog.xml: 5837 bytes (replaced with small dummy file of size 9 bytes)
