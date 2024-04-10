@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.mintware.barcode_scan.barcode_scan2-mergeReleaseResources-16:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/15df1fd18ad3674b3c233ab44b78e4b3/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "de.mintware.barcode_scan.barcode_scan2-merged_res-18:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/15df1fd18ad3674b3c233ab44b78e4b3/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.mintware.barcode_scan.barcode_scan2-merged_res-18:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/15df1fd18ad3674b3c233ab44b78e4b3/transformed/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "de.mintware.barcode_scan.barcode_scan2-mergeReleaseResources-16:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/shlokpardeshi/.gradle/caches/transforms-3/15df1fd18ad3674b3c233ab44b78e4b3/transformed/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

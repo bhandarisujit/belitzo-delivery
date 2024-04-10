@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/drawable/notification_bg.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/drawable/notification_bg_low.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/drawable/notification_tile_bg.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "xyz.luan.audioplayers-merged_res-9:/drawable/notification_icon_background.xml",
+        "source": "xyz.luan.audioplayers-core-1.6.0-3:/drawable/notification_icon_background.xml"
+    }
+]
